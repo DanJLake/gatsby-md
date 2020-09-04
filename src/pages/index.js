@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../Components/Header"
 import PageCover from "../Components/PageCover"
+import { Helmet } from "react-helmet"
 
 import "./scss/app.scss"
 
@@ -14,6 +15,10 @@ export default function Home({
     .map(edge => edge.node.html)
   return (
     <div className="app-container">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Gatsby + MD</title>
+      </Helmet>
       <Header />
       <PageCover
         backgroundImage="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&w=1000&q=80"
