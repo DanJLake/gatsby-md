@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.md-post {
+  margin: 30px auto;
+  width: 960px;
+
+  font-family: "Open Sans", sans-serif;
+
+  * {
+    margin: 5px;
+  }
+
+  a {
+    margin: 0;
+    text-decoration: none;
+    color: rgba(102, 51, 153, 1);
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .md-post-date {
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 11px;
+  }
+
+  h2,
+  h3 {
+    margin: 10px 5px;
+  }
+
+  blockquote {
+    background-color: rgba(100, 100, 100, 0.1);
+    border-left: 5px solid rgba(102, 51, 153, 1);
+
+    padding: 10px 0;
+  }
+
+  ul {
+    list-style: "- " inside;
+
+    li {
+      margin-top: 10px;
+
+      &:last-of-type {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
