@@ -4,6 +4,7 @@ import PostLink from "../Components/PostLink"
 import PostList from "../Components/PostList"
 
 import "./scss/MdList.scss"
+import { Link } from "gatsby"
 const MdListCategory2 = ({
   data: {
     allMarkdownRemark: { edges },
@@ -12,6 +13,20 @@ const MdListCategory2 = ({
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+
+  Posts.push(
+    <Link to="https://danjlake.github.io/">
+      <div>
+        <span className="listed-post-title">Daniel Lake</span>
+        <span className="listed-post-date">Portfolio</span>
+        <img
+          src="https://danjlake.github.io/img/anubis.png"
+          alt=""
+          className="listed-post-image"
+        />
+      </div>
+    </Link>
+  )
   return (
     <div>
       <Header />
