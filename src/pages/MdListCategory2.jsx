@@ -18,7 +18,7 @@ const MdListCategory2 = ({
     <Link to="https://danjlake.github.io/">
       <div>
         <span className="listed-post-title">Daniel Lake</span>
-        <span className="listed-post-date">Portfolio</span>
+        <span className="listed-post-date">Portfolio »</span>
         <img
           src="https://danjlake.github.io/img/anubis.png"
           alt=""
