@@ -12,7 +12,7 @@ function Header() {
           src="https://avatars3.githubusercontent.com/u/12551863?s=400&v=4"
           alt="Gatsby Logo"
         />
-        <span className="header-plus-sign"></span>
+        <span className="header-plus-sign" />
         <img
           className="header-markdown-logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png"

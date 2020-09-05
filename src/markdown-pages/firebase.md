@@ -12,20 +12,12 @@ image: "https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png"
 
 ## This site is hosted using Firebase
 
-Firebase hosts
+Firebase is a Google platform for Web Application hosting and management. It gives you functionality like analytics, databases, messaging and crash reporting and supports web and mobile applications.
 
-## What is Gatsby?
+Firebase can provide an entire backend for applications, giving users a quick, intuitive sign-in process with Firebase Authentication and allow users to sign in to your app with their Facebook, Twitter, Google, or GitHub account with less than 5 minutes of work.
 
-Gatsby is a React-based open source framework for creating websites and apps. **Build anything you can imagine** with over 2000 plugins and **performance, scalability**, and **security** built-in by default.
+With built in databases and easy access to Google's other web services you can easily implement analytics, ads, chat, payments and more.
 
-Gatsby loads only **critical** parts of the page, so your site loads as fast as possible. Once loaded, Gatsby **prefetches** resources for other pages so that clicking on the site feels incredibly fast. Gatsby lets teams focus on creating content-driven websites instead of worrying about performance.
+Gatsby builds can be easily deployed to Firebase using the firebase and gatsby CLIs.
 
-More than just a static site generator, Gatsby has all the tools for building the modern web: Plugins for seamlessly integrating services, Themes for effortless configuration, and Recipes for automating common site building chores.
-
-_Source: [https://www.gatsbyjs.com/](https://www.gatsbyjs.com/)_
-
-## Not just static React
-
-Using Gatsby plugins, React components are generated using Markdown files before the site is built, allowing Gatsby to act as a headless CMS.
-
-For more information on Gatsby visit [https://www.gatsbyjs.com/](https://www.gatsbyjs.com/).
+For more information visit https://firebase.google.com/

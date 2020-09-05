@@ -33,13 +33,15 @@ header {
 
   .header-markdown-logo {
     height: 60px;
-    border-radius: 9px;
 
     margin-left: 15px;
+
+    //Invert image colours
+    filter: invert(1);
   }
 
   .header-plus-sign {
-    font-size: 60px;
+    font-size: 50px;
     background: none;
     font-weight: bold;
     color: white;
@@ -53,8 +55,6 @@ header {
 
   nav {
     justify-self: flex-end;
-    text-align: right;
-    width: auto;
     *,
     * * {
       background: rgba(102, 51, 153, 1);
